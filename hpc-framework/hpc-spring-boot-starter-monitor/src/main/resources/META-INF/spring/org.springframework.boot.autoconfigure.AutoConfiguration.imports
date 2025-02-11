@@ -1,0 +1,2 @@
+cn.wp.hpc.framework.tracer.config.HpcTracerAutoConfiguration
+cn.wp.hpc.framework.tracer.config.HpcMetricsAutoConfiguration

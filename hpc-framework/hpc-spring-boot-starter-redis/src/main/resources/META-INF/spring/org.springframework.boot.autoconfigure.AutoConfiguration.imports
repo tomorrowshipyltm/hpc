@@ -1,0 +1,2 @@
+cn.wp.hpc.framework.redis.config.HpcRedisAutoConfiguration
+cn.wp.hpc.framework.redis.config.HpcCacheAutoConfiguration

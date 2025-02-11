@@ -1,0 +1,2 @@
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  cn.wp.hpc.framework.mybatis.config.IdTypeEnvironmentPostProcessor

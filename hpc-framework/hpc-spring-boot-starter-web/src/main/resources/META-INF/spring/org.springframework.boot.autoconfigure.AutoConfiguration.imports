@@ -1,0 +1,6 @@
+cn.wp.hpc.framework.apilog.config.HpcApiLogAutoConfiguration
+cn.wp.hpc.framework.jackson.config.HpcJacksonAutoConfiguration
+cn.wp.hpc.framework.swagger.config.HpcSwaggerAutoConfiguration
+cn.wp.hpc.framework.web.config.HpcWebAutoConfiguration
+cn.wp.hpc.framework.xss.config.HpcXssAutoConfiguration
+cn.wp.hpc.framework.banner.config.HpcBannerAutoConfiguration

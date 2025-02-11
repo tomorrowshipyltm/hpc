@@ -1,0 +1,1 @@
+package cn.wp.hpc.module.crm.framework.permission.core;

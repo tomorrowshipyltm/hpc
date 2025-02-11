@@ -1,0 +1,3 @@
+cn.wp.hpc.framework.mq.redis.config.HpcRedisMQProducerAutoConfiguration
+cn.wp.hpc.framework.mq.redis.config.HpcRedisMQConsumerAutoConfiguration
+cn.wp.hpc.framework.mq.rabbitmq.config.HpcRabbitMQAutoConfiguration

@@ -1,0 +1,4 @@
+cn.wp.hpc.framework.idempotent.config.HpcIdempotentConfiguration
+cn.wp.hpc.framework.lock4j.config.HpcLock4jConfiguration
+cn.wp.hpc.framework.ratelimiter.config.HpcRateLimiterConfiguration
+cn.wp.hpc.framework.signature.config.HpcApiSignatureAutoConfiguration

@@ -1,0 +1,3 @@
+cn.wp.hpc.framework.security.config.HpcSecurityAutoConfiguration
+cn.wp.hpc.framework.security.config.HpcWebSecurityConfigurerAdapter
+cn.wp.hpc.framework.operatelog.config.HpcOperateLogConfiguration

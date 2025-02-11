@@ -1,0 +1,3 @@
+cn.wp.hpc.framework.datasource.config.HpcDataSourceAutoConfiguration
+cn.wp.hpc.framework.mybatis.config.HpcMybatisAutoConfiguration
+cn.wp.hpc.framework.translate.config.HpcTranslateAutoConfiguration

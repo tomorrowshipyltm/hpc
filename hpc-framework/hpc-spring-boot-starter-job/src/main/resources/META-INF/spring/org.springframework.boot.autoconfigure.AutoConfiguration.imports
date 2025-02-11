@@ -1,0 +1,2 @@
+cn.wp.hpc.framework.quartz.config.HpcQuartzAutoConfiguration
+cn.wp.hpc.framework.quartz.config.HpcAsyncAutoConfiguration
