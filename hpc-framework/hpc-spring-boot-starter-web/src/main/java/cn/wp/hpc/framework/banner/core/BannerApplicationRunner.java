@@ -11,7 +11,6 @@ import java.util.concurrent.TimeUnit;
 /**
  * 项目启动成功后，提供文档相关的地址
  *
- * @author 芋道源码
  */
 @Slf4j
 public class BannerApplicationRunner implements ApplicationRunner {
@@ -22,49 +21,45 @@ public class BannerApplicationRunner implements ApplicationRunner {
             ThreadUtil.sleep(1, TimeUnit.SECONDS); // 延迟 1 秒，保证输出到结尾
             log.info("\n----------------------------------------------------------\n\t" +
                             "项目启动成功！\n\t" +
-                            "接口文档: \t{} \n\t" +
-                            "开发文档: \t{} \n\t" +
-                            "视频教程: \t{} \n" +
-                            "----------------------------------------------------------",
-                    "https://doc.iocoder.cn/api-doc/",
-                    "https://doc.iocoder.cn",
-                    "https://t.zsxq.com/02Yf6M7Qn");
+                            "开发文档:  https://www.yuque.com/u1862689/pesoto/nu2aa8p0igxyx2zd  \n\t" +
+                            "----------------------------------------------------------"
+                    );
 
             // 数据报表
             if (isNotPresent("cn.wp.hpc.module.report.framework.security.config.SecurityConfiguration")) {
-                System.out.println("[报表模块 hpc-module-report - 已禁用][参考 https://doc.iocoder.cn/report/ 开启]");
+                System.out.println("[报表模块 hpc-module-report - 已禁用]");
             }
             // 工作流
             if (isNotPresent("cn.wp.hpc.module.bpm.framework.flowable.config.BpmFlowableConfiguration")) {
-                System.out.println("[工作流模块 hpc-module-bpm - 已禁用][参考 https://doc.iocoder.cn/bpm/ 开启]");
+                System.out.println("[工作流模块 hpc-module-bpm - 已禁用]");
             }
             // 商城系统
             if (isNotPresent("cn.wp.hpc.module.trade.framework.web.config.TradeWebConfiguration")) {
-                System.out.println("[商城系统 hpc-module-mall - 已禁用][参考 https://doc.iocoder.cn/mall/build/ 开启]");
+                System.out.println("[商城系统 hpc-module-mall - 已禁用]");
             }
             // ERP 系统
             if (isNotPresent("cn.wp.hpc.module.erp.framework.web.config.ErpWebConfiguration")) {
-                System.out.println("[ERP 系统 hpc-module-erp - 已禁用][参考 https://doc.iocoder.cn/erp/build/ 开启]");
+                System.out.println("[ERP 系统 hpc-module-erp - 已禁用]");
             }
             // CRM 系统
             if (isNotPresent("cn.wp.hpc.module.crm.framework.web.config.CrmWebConfiguration")) {
-                System.out.println("[CRM 系统 hpc-module-crm - 已禁用][参考 https://doc.iocoder.cn/crm/build/ 开启]");
+                System.out.println("[CRM 系统 hpc-module-crm - 已禁用]");
             }
             // 微信公众号
             if (isNotPresent("cn.wp.hpc.module.mp.framework.mp.config.MpConfiguration")) {
-                System.out.println("[微信公众号 hpc-module-mp - 已禁用][参考 https://doc.iocoder.cn/mp/build/ 开启]");
+                System.out.println("[微信公众号 hpc-module-mp - 已禁用]");
             }
             // 支付平台
             if (isNotPresent("cn.wp.hpc.module.pay.framework.pay.config.PayConfiguration")) {
-                System.out.println("[支付系统 hpc-module-pay - 已禁用][参考 https://doc.iocoder.cn/pay/build/ 开启]");
+                System.out.println("[支付系统 hpc-module-pay - 已禁用]");
             }
             // AI 大模型
             if (isNotPresent("cn.wp.hpc.module.ai.framework.web.config.AiWebConfiguration")) {
-                System.out.println("[AI 大模型 hpc-module-ai - 已禁用][参考 https://doc.iocoder.cn/ai/build/ 开启]");
+                System.out.println("[AI 大模型 hpc-module-ai - 已禁用]");
             }
             // IOT 物联网
             if (isNotPresent("cn.wp.hpc.module.iot.framework.web.config.IotWebConfiguration")) {
-                System.out.println("[IOT 物联网 hpc-module-iot - 已禁用][参考 https://doc.iocoder.cn/iot/build/ 开启]");
+                System.out.println("[IOT 物联网 hpc-module-iot - 已禁用]");
             }
         });
     }

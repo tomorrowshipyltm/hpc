@@ -22,7 +22,7 @@ import static cn.wp.hpc.framework.common.util.collection.CollectionUtils.findFir
 /**
  * 区域工具类
  *
- * @author 芋道源码
+ *
  */
 @Slf4j
 public class AreaUtils {

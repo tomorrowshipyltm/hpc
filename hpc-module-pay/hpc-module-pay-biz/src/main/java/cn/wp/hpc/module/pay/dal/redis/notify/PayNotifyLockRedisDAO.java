@@ -12,7 +12,7 @@ import static cn.wp.hpc.module.pay.dal.redis.RedisKeyConstants.PAY_NOTIFY_LOCK;
 /**
  * 支付通知的锁 Redis DAO
  *
- * @author 芋道源码
+ *
  */
 @Repository
 public class PayNotifyLockRedisDAO {

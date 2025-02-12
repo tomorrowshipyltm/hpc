@@ -21,7 +21,7 @@ import java.util.List;
  * {@link cn.wp.hpc.module.bpm.dal.dataobject.definition.BpmProcessDefinitionInfoDO}
  * 是一致的
  *
- * @author 芋道源码
+ *
  */
 @Data
 public class BpmModelMetaInfoVO {

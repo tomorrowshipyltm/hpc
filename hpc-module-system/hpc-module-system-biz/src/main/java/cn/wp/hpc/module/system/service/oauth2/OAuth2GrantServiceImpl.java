@@ -19,7 +19,7 @@ import static cn.wp.hpc.framework.common.exception.util.ServiceExceptionUtil.exc
 /**
  * OAuth2 授予 Service 实现类
  *
- * @author 芋道源码
+ *
  */
 @Service
 public class OAuth2GrantServiceImpl implements OAuth2GrantService {

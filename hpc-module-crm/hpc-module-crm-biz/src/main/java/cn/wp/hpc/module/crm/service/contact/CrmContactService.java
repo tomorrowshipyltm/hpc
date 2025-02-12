@@ -19,7 +19,7 @@ import static cn.wp.hpc.framework.common.util.collection.CollectionUtils.convert
 /**
  * CRM 联系人 Service 接口
  *
- * @author 芋道源码
+ *
  */
 public interface CrmContactService {
 

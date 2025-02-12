@@ -26,7 +26,7 @@ import static cn.wp.hpc.framework.common.util.collection.CollectionUtils.convert
 /**
  * 订单分销的 {@link TradeOrderHandler} 实现类
  *
- * @author 芋道源码
+ *
  */
 @Component
 public class TradeBrokerageOrderHandler implements TradeOrderHandler {

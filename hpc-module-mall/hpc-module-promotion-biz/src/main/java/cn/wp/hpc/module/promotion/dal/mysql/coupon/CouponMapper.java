@@ -20,7 +20,7 @@ import static cn.wp.hpc.framework.common.util.collection.CollectionUtils.convert
 /**
  * 优惠劵 Mapper
  *
- * @author 芋道源码
+ *
  */
 @Mapper
 public interface CouponMapper extends BaseMapperX<CouponDO> {

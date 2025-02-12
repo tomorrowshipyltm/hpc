@@ -17,7 +17,7 @@ import static cn.wp.hpc.framework.common.util.collection.CollectionUtils.convert
 /**
  * ERP 采购退货项 Mapper
  *
- * @author 芋道源码
+ *
  */
 @Mapper
 public interface ErpPurchaseReturnItemMapper extends BaseMapperX<ErpPurchaseReturnItemDO> {

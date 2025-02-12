@@ -37,7 +37,7 @@ import static cn.wp.hpc.module.mp.enums.ErrorCodeConstants.USER_UPDATE_TAG_FAIL;
 /**
  * 微信公众号粉丝 Service 实现类
  *
- * @author 芋道源码
+ *
  */
 @Service
 @Validated

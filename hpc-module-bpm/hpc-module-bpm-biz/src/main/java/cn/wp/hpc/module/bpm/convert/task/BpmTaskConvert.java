@@ -34,7 +34,7 @@ import static cn.wp.hpc.framework.common.util.collection.MapUtils.findAndThen;
 /**
  * Bpm 任务 Convert
  *
- * @author 芋道源码
+ *
  */
 @Mapper
 public interface BpmTaskConvert {

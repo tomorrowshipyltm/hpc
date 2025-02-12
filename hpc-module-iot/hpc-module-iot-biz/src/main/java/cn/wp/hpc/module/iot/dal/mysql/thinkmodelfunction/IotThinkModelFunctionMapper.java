@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * IoT 产品物模型 Mapper
  *
- * @author 芋道源码
+ *
  */
 @Mapper
 public interface IotThinkModelFunctionMapper extends BaseMapperX<IotThinkModelFunctionDO> {

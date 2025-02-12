@@ -24,7 +24,7 @@ import static cn.wp.hpc.framework.common.util.collection.CollectionUtils.convert
 /**
  * 砍价记录 Convert
  *
- * @author 芋道源码
+ *
  */
 @Mapper
 public interface BargainRecordConvert {

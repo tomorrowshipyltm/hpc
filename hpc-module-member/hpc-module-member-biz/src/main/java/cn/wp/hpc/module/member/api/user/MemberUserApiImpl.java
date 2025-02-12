@@ -17,7 +17,7 @@ import static cn.wp.hpc.module.member.enums.ErrorCodeConstants.USER_MOBILE_NOT_E
 /**
  * 会员用户的 API 实现类
  *
- * @author 芋道源码
+ *
  */
 @Service
 @Validated

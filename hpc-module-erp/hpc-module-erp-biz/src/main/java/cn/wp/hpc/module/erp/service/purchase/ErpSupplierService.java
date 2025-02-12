@@ -15,7 +15,7 @@ import static cn.wp.hpc.framework.common.util.collection.CollectionUtils.convert
 /**
  * ERP 供应商 Service 接口
  *
- * @author 芋道源码
+ *
  */
 public interface ErpSupplierService {
 

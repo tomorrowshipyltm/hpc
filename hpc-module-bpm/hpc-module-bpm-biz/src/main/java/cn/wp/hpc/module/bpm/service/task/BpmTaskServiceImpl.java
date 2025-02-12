@@ -67,7 +67,7 @@ import static cn.wp.hpc.module.bpm.framework.flowable.core.util.BpmnModelUtils.*
 /**
  * 流程任务实例 Service 实现类
  *
- * @author 芋道源码
+ *
  * @author jason
  */
 @Slf4j

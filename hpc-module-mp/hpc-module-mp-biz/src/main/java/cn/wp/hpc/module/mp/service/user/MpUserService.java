@@ -15,7 +15,7 @@ import static cn.wp.hpc.module.mp.enums.ErrorCodeConstants.USER_NOT_EXISTS;
 /**
  * 公众号粉丝 Service 接口
  *
- * @author 芋道源码
+ *
  */
 public interface MpUserService {
 

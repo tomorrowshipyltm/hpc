@@ -18,7 +18,7 @@ import static cn.wp.hpc.module.erp.enums.ErrorCodeConstants.STOCK_COUNT_NEGATIVE
 /**
  * ERP 产品库存 Service 实现类
  *
- * @author 芋道源码
+ *
  */
 @Service
 @Validated

@@ -32,7 +32,7 @@ import static cn.wp.hpc.module.system.enums.ErrorCodeConstants.SOCIAL_USER_NOT_F
 /**
  * 社交用户 Service 实现类
  *
- * @author 芋道源码
+ *
  */
 @Service
 @Validated

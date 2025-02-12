@@ -11,7 +11,7 @@ import static cn.wp.hpc.framework.common.util.collection.CollectionUtils.convert
 /**
  * 会员用户的 API 接口
  *
- * @author 芋道源码
+ *
  */
 public interface MemberUserApi {
 

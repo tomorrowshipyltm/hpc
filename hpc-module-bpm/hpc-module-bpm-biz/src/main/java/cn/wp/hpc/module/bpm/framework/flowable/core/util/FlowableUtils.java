@@ -30,7 +30,7 @@ import java.util.concurrent.Callable;
 /**
  * Flowable 相关的工具方法
  *
- * @author 芋道源码
+ *
  */
 public class FlowableUtils {
 

@@ -5,7 +5,7 @@ import cn.wp.hpc.module.report.controller.admin.goview.vo.data.GoViewDataRespVO;
 /**
  * GoView 数据 Service 接口
  *
- * @author 芋道源码
+ *
  */
 public interface GoViewDataService {
 

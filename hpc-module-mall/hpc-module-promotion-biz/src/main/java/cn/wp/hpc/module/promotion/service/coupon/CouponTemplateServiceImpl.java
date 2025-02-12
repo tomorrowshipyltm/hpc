@@ -28,7 +28,7 @@ import static cn.wp.hpc.module.promotion.enums.ErrorCodeConstants.COUPON_TEMPLAT
 /**
  * 优惠劵模板 Service 实现类
  *
- * @author 芋道源码
+ *
  */
 @Service
 @Validated

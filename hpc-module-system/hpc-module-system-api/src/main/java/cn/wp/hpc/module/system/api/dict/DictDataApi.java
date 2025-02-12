@@ -12,7 +12,7 @@ import static cn.wp.hpc.framework.common.util.collection.CollectionUtils.convert
 /**
  * 字典数据 API 接口
  *
- * @author 芋道源码
+ *
  */
 public interface DictDataApi {
 

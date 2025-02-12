@@ -13,7 +13,7 @@ import static cn.wp.hpc.framework.common.util.date.DateUtils.FORMAT_YEAR_MONTH_D
 @Data
 public class OperateLogPageReqVO extends PageParam {
 
-    @Schema(description = "用户编号", example = "芋道")
+    @Schema(description = "用户编号", example = "示例")
     private Long userId;
 
     @Schema(description = "操作模块业务编号", example = "1")

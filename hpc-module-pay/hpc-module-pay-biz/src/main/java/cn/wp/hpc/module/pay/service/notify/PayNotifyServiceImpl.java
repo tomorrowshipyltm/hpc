@@ -54,7 +54,7 @@ import static cn.wp.hpc.module.pay.framework.job.config.PayJobConfiguration.NOTI
 /**
  * 支付通知 Core Service 实现类
  *
- * @author 芋道源码
+ * 
  */
 @Service
 @Valid

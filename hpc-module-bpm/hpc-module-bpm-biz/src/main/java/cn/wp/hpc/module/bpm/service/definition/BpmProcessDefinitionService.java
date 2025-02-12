@@ -22,7 +22,7 @@ import static cn.wp.hpc.framework.common.util.collection.CollectionUtils.convert
  *
  * @author yunlong.li
  * @author ZJQ
- * @author 芋道源码
+ *
  */
 public interface BpmProcessDefinitionService {
 

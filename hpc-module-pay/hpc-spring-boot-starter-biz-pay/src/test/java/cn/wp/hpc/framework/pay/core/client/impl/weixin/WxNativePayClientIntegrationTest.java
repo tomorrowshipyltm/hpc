@@ -20,7 +20,7 @@ import static cn.wp.hpc.framework.pay.core.client.impl.weixin.AbstractWxPayClien
 /**
  * {@link WxNativePayClient} 的集成测试，用于快速调试微信扫码支付
  *
- * @author 芋道源码
+ *
  */
 @Disabled
 public class WxNativePayClientIntegrationTest {

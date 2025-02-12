@@ -22,7 +22,7 @@ import static cn.wp.hpc.module.infra.dal.dataobject.logger.ApiAccessLogDO.RESULT
 /**
  * API 访问日志 Service 实现类
  *
- * @author 芋道源码
+ *
  */
 @Slf4j
 @Service

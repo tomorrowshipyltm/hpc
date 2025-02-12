@@ -21,7 +21,7 @@ import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.Lazy;
 
 /**
- * 芋道 AI 自动配置
+ * 示例 AI 自动配置
  *
  * @author fansili
  */

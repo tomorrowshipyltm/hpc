@@ -27,7 +27,7 @@ import static cn.wp.hpc.module.product.enums.ErrorCodeConstants.*;
 /**
  * 商品分类 Service 实现类
  *
- * @author 芋道源码
+ *
  */
 @Service
 @Validated

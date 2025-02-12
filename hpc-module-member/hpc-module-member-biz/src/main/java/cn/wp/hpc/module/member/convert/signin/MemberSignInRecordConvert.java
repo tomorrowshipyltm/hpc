@@ -22,7 +22,7 @@ import static cn.wp.hpc.framework.common.util.collection.CollectionUtils.convert
 /**
  * 签到记录 Convert
  *
- * @author 芋道源码
+ *
  */
 @Mapper
 public interface MemberSignInRecordConvert {

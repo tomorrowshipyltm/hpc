@@ -19,7 +19,7 @@ import static cn.wp.hpc.framework.common.util.collection.CollectionUtils.convert
 /**
  * 商品 SPU Convert
  *
- * @author 芋道源码
+ *
  */
 @Mapper
 public interface ProductSpuConvert {

@@ -49,7 +49,7 @@ import static cn.wp.hpc.module.trade.enums.ErrorCodeConstants.*;
 /**
  * 佣金提现 Service 实现类
  *
- * @author 芋道源码
+ *
  */
 @Service
 @Validated

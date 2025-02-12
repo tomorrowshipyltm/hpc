@@ -24,7 +24,7 @@ import static cn.wp.hpc.framework.common.exception.enums.GlobalErrorCodeConstant
  *
  * 补充：Spring Security 通过 {@link ExceptionTranslationFilter#handleAccessDeniedException(HttpServletRequest, HttpServletResponse, FilterChain, AccessDeniedException)} 方法，调用当前类
  *
- * @author 芋道源码
+ *
  */
 @Slf4j
 @SuppressWarnings("JavadocReference")

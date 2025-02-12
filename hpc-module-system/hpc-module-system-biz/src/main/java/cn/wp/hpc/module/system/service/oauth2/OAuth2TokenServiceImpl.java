@@ -38,7 +38,7 @@ import static cn.wp.hpc.framework.common.util.collection.CollectionUtils.convert
 /**
  * OAuth2.0 Token Service 实现类
  *
- * @author 芋道源码
+ *
  */
 @Service
 public class OAuth2TokenServiceImpl implements OAuth2TokenService {

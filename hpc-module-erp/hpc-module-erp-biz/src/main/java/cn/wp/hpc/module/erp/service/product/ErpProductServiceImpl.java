@@ -30,7 +30,7 @@ import static cn.wp.hpc.module.erp.enums.ErrorCodeConstants.PRODUCT_NOT_EXISTS;
 /**
  * ERP 产品 Service 实现类
  *
- * @author 芋道源码
+ *
  */
 @Service
 @Validated

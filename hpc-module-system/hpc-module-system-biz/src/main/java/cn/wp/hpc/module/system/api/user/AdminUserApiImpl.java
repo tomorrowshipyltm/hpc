@@ -22,7 +22,7 @@ import static cn.wp.hpc.framework.common.util.collection.CollectionUtils.convert
 /**
  * Admin 用户 API 实现类
  *
- * @author 芋道源码
+ *
  */
 @Service
 public class AdminUserApiImpl implements AdminUserApi {

@@ -30,7 +30,7 @@ import static cn.wp.hpc.module.trade.enums.ErrorCodeConstants.PRICE_CALCULATE_CO
 /**
  * 优惠劵的 {@link TradePriceCalculator} 实现类
  *
- * @author 芋道源码
+ *
  */
 @Component
 @Order(TradePriceCalculator.ORDER_COUPON)

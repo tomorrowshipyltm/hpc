@@ -17,7 +17,7 @@ import static cn.wp.hpc.framework.common.util.collection.CollectionUtils.convert
 /**
  * 佣金提现 Service 接口
  *
- * @author 芋道源码
+ *
  */
 public interface BrokerageWithdrawService {
 

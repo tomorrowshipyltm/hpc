@@ -5,7 +5,7 @@ import cn.wp.hpc.module.infra.framework.file.core.client.s3.FilePresignedUrlResp
 /**
  * 文件客户端
  *
- * @author 芋道源码
+ *
  */
 public interface FileClient {
 

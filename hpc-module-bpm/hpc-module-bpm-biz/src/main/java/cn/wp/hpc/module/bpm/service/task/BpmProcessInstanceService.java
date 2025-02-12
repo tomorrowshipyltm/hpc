@@ -16,7 +16,7 @@ import static cn.wp.hpc.framework.common.util.collection.CollectionUtils.convert
 /**
  * 流程实例 Service 接口
  *
- * @author 芋道源码
+ * 
  */
 public interface BpmProcessInstanceService {
 

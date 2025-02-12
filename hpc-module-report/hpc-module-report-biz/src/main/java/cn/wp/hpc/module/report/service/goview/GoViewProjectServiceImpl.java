@@ -19,7 +19,7 @@ import static cn.wp.hpc.module.report.enums.ErrorCodeConstants.GO_VIEW_PROJECT_N
 /**
  * GoView 项目 Service 实现类
  *
- * @author 芋道源码
+ *
  */
 @Service
 @Validated

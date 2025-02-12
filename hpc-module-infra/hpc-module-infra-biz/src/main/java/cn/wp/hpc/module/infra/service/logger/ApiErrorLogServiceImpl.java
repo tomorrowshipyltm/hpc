@@ -25,7 +25,7 @@ import static cn.wp.hpc.module.infra.enums.ErrorCodeConstants.API_ERROR_LOG_PROC
 /**
  * API 错误日志 Service 实现类
  *
- * @author 芋道源码
+ *
  */
 @Service
 @Validated

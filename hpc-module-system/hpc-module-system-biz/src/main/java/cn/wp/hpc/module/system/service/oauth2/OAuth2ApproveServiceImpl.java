@@ -20,7 +20,7 @@ import static cn.wp.hpc.framework.common.util.collection.CollectionUtils.convert
 /**
  * OAuth2 批准 Service 实现类
  *
- * @author 芋道源码
+ *
  */
 @Service
 @Validated

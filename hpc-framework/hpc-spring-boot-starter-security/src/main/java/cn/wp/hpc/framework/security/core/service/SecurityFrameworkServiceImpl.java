@@ -13,7 +13,7 @@ import static cn.wp.hpc.framework.security.core.util.SecurityFrameworkUtils.getL
 /**
  * 默认的 {@link SecurityFrameworkService} 实现类
  *
- * @author 芋道源码
+ *
  */
 @AllArgsConstructor
 public class SecurityFrameworkServiceImpl implements SecurityFrameworkService {

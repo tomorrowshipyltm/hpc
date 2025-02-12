@@ -37,7 +37,7 @@ import static cn.wp.hpc.module.mp.enums.ErrorCodeConstants.*;
 /**
  * 公众号素材 Service 接口
  *
- * @author 芋道源码
+ *
  */
 @Service
 @Validated

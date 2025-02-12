@@ -26,7 +26,7 @@ import static cn.wp.hpc.module.trade.service.price.calculator.TradePriceCalculat
 /**
  * 满减送活动的 {@link TradePriceCalculator} 实现类
  *
- * @author 芋道源码
+ *
  */
 @Component
 @Order(TradePriceCalculator.ORDER_REWARD_ACTIVITY)
