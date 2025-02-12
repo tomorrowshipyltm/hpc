@@ -15,9 +15,9 @@
         <!-- 各种 module 拓展 -->
         <module>hpc-module-system</module>
         <module>hpc-module-infra</module>
-        <module>hpc-module-member</module>
-        <module>hpc-module-bpm</module>
-        <module>hpc-module-report</module>
+<!--        <module>hpc-module-member</module>-->
+<!--        <module>hpc-module-bpm</module>-->
+<!--        <module>hpc-module-report</module>-->
 <!--        <module>hpc-module-mp</module>-->
 <!--        <module>hpc-module-pay</module>-->
 <!--        <module>hpc-module-mall</module>-->

@@ -33,24 +33,24 @@
         </dependency>
 
         <!-- 会员中心。默认注释，保证编译速度 -->
-        <dependency>
-            <groupId>cn.wp.boot</groupId>
-            <artifactId>hpc-module-member-biz</artifactId>
-            <version>${revision}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>cn.wp.boot</groupId>-->
+<!--            <artifactId>hpc-module-member-biz</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
 
 <!--         数据报表。默认注释，保证编译速度 -->
-        <dependency>
-            <groupId>cn.wp.boot</groupId>
-            <artifactId>hpc-module-report-biz</artifactId>
-            <version>${revision}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>cn.wp.boot</groupId>-->
+<!--            <artifactId>hpc-module-report-biz</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
 <!--         工作流。默认注释，保证编译速度 -->
-        <dependency>
-            <groupId>cn.wp.boot</groupId>
-            <artifactId>hpc-module-bpm-biz</artifactId>
-            <version>${revision}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>cn.wp.boot</groupId>-->
+<!--            <artifactId>hpc-module-bpm-biz</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
         <!-- 支付服务。默认注释，保证编译速度 -->
 <!--        <dependency>-->
 <!--            <groupId>cn.wp.boot</groupId>-->
