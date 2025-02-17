@@ -61,6 +61,10 @@ public class BannerApplicationRunner implements ApplicationRunner {
             if (isNotPresent("cn.wp.hpc.module.iot.framework.web.config.IotWebConfiguration")) {
                 System.out.println("[IOT 物联网 hpc-module-iot - 已禁用]");
             }
+            // K8S dashboard
+            if (isNotPresent("cn.wp.hpc.module.k8s.framework.web.config.K8SWebConfiguration")) {
+                System.out.println("[K8S dashboard hpc-module-k8s - 已禁用]");
+            }
         });
     }
 

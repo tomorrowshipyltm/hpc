@@ -1,0 +1,11 @@
+---
+- name: Install k8s node
+  hosts: PLACEHOLDER
+  gather_facts: no
+  tasks:
+    - name: check df
+      command: ls /home
+    - name: check docker
+      command: ls /tmp
+    - name: check kubelet
+      command: ls /var

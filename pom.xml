@@ -24,8 +24,9 @@
 <!--        <module>hpc-module-crm</module>-->
 <!--        <module>hpc-module-erp</module>-->
 <!--        <module>hpc-module-iot</module>-->
-        <!-- AI 大模型的开启，请参考 https://doc.iocoder.cn/ai/build/ 文档，对 JDK 版本要要求！ -->
+<!--         AI 大模型的开启，请参考 https://doc.iocoder.cn/ai/build/ 文档，对 JDK 版本要要求！ -->
 <!--        <module>hpc-module-ai</module>-->
+        <module>hpc-module-k8s</module>
     </modules>
 
     <name>${project.artifactId}</name>

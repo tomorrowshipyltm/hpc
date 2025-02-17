@@ -67,6 +67,7 @@
         <bizlog-sdk.version>3.0.6</bizlog-sdk.version>
         <netty.version>4.1.116.Final</netty.version>
         <mqtt.version>1.2.5</mqtt.version>
+        <fabric8.version>6.13.4</fabric8.version>
         <!-- 三方云服务相关 -->
         <commons-io.version>2.17.0</commons-io.version>
         <commons-compress.version>1.27.1</commons-compress.version>
@@ -625,6 +626,13 @@
                 <groupId>org.eclipse.paho</groupId>
                 <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
                 <version>${mqtt.version}</version>
+            </dependency>
+
+            <!-- K8S -->
+            <dependency>
+                <groupId>io.fabric8</groupId>
+                <artifactId>kubernetes-client</artifactId>
+                <version>${fabric8.version}</version>
             </dependency>
 
             <!-- 专属于 JDK8 安全漏洞升级 -->

@@ -115,6 +115,13 @@
 <!--            <version>${revision}</version>-->
 <!--        </dependency>-->
 
+        <!-- K8S 相关模块。默认注释，保证编译速度 -->
+            <dependency>
+                <groupId>cn.wp.boot</groupId>
+                <artifactId>hpc-module-k8s-biz</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
         <!-- spring boot 配置所需依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

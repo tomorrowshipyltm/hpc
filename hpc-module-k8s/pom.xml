@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>cn.wp.boot</groupId>
+        <artifactId>hpc</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>hpc-module-k8s-api</module>
+        <module>hpc-module-k8s-biz</module>
+    </modules>
+    <artifactId>hpc-module-k8s</artifactId>
+    <packaging>pom</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>
+        k8s 模块，提供dashboard功能，包括节点管理、应用负载、配置秘钥等
+    </description>
+
+</project>

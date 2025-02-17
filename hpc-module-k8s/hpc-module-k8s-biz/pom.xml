@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>cn.wp.boot</groupId>
+        <artifactId>hpc-module-k8s</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>hpc-module-k8s-biz</artifactId>
+    <packaging>jar</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>
+        k8s 模块，主要提供两块能力：
+        1. 节点管理：节点打标、启停调度、打污点，节点资源查看
+        2. 应用负载管理：deployment、statefulset、daemonset、configmap、secret、pvc等
+    </description>
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.wp.boot</groupId>
+            <artifactId>hpc-module-k8s-api</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+
+        <!-- Web 相关 -->
+        <dependency>
+            <groupId>cn.wp.boot</groupId>
+            <artifactId>hpc-spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <!-- Test 测试相关 -->
+        <dependency>
+            <groupId>cn.wp.boot</groupId>
+            <artifactId>hpc-spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- 工具类相关 -->
+        <dependency>
+            <groupId>cn.wp.boot</groupId>
+            <artifactId>hpc-spring-boot-starter-excel</artifactId>
+        </dependency>
+
+        <!-- 版本号由父模块统一管理，但是这里也需要引入下载jar包到安装目录 -->
+        <dependency>
+            <groupId>io.fabric8</groupId>
+            <artifactId>kubernetes-client</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>
