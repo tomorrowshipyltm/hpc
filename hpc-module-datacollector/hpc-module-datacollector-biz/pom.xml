@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>cn.wp.boot</groupId>
+        <artifactId>hpc-module-datacollector</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>hpc-module-datacollector-biz</artifactId>
+    <packaging>jar</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>
+        datacollector 模块，支持：
+        1. 主动、被动采集
+        2. 多种采集协议
+    </description>
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.wp.boot</groupId>
+            <artifactId>hpc-module-datacollector-api</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+
+        <!-- Web 相关 -->
+        <dependency>
+            <groupId>cn.wp.boot</groupId>
+            <artifactId>hpc-spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <!-- Test 测试相关 -->
+        <dependency>
+            <groupId>cn.wp.boot</groupId>
+            <artifactId>hpc-spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- 工具类相关 -->
+        <dependency>
+            <groupId>cn.wp.boot</groupId>
+            <artifactId>hpc-spring-boot-starter-excel</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

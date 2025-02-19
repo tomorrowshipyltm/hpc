@@ -27,6 +27,7 @@
 <!--         AI 大模型的开启，请参考 https://doc.iocoder.cn/ai/build/ 文档，对 JDK 版本要要求！ -->
 <!--        <module>hpc-module-ai</module>-->
         <module>hpc-module-k8s</module>
+        <module>hpc-module-datacollector</module>
     </modules>
 
     <name>${project.artifactId}</name>
